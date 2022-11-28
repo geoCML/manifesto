@@ -4,7 +4,7 @@ geoCML is a deployment pattern for Containerized Multi-paradigm Lightweight geog
 
 Each geoCML deployment is intended to host only one GIS; users who want to have multiple systems will need multiple geoCML deployments. An entire GIS deployment can be completed in a few minutes with minimal hassle, since geoCML does all necessary configuration out of the box. Users may still choose to further configure their deployments by modifying the geoCML base image to suit their needs.
 
-Using Kasm, users can sign into their GIS and interact with it via an immutable desktop interface. Users may also interact with their GIS via QGIS Server for automated tasks. 
+Using VNC, users can sign into their GIS and interact with it via an Linux desktop interface. Users may also interact with their GIS via QGIS Server for automated tasks. 
 
 geoCML deployments can be run locally or on a hosted web server. When a geoCML deployment is hosted, the URL and description for that GIS are posted to the DRGON (Distributed Registry of GISystems Over a Network). The DRGON is a single webpage containing information on all publicly hosted geoCML deployments, allowing users to quickly find geodata hosted on geoMCL deployments around the world. Users can use the DRGON to fork a GIS in order to create their own GIS using preexisting data. As a rule, all publicly hosted geoCML deployments must post their system to the DRGON; doing this will create a healthy, rich ecosystem of geodata currently missing in the industry. 
 
